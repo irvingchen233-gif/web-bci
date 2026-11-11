@@ -51,11 +51,31 @@
     color:var(--ink);text-decoration:none;
   }
   .logo span{
-    font-family:var(--sans);font-size:10px;font-weight:400;
-    letter-spacing:.22em;color:var(--ink-soft);
-    display:block;margin-top:2px;text-transform:uppercase;
-  }
+  display:block;
+}
+.logo .logo-sub{
+  font-family:var(--sans);
+  font-size:10px;
+  font-weight:400;
+  letter-spacing:.22em;
+  color:var(--ink-soft);
+  margin-top:2px;
+  text-transform:uppercase;
+}
+  html.lang-en .logo span:first-child{
+  font-size:17px;
+  letter-spacing:.02em;
+}
   .nav-links{display:flex;gap:36px;list-style:none}
+  .nav-links{
+  display:flex;
+  gap:28px;
+  list-style:none;
+  margin-left:auto;   /* 菜单与按钮一起靠右 */
+}
+  .lang-toggle{
+  margin-left:28px;
+}
   .nav-links a{
     text-decoration:none;color:var(--ink-soft);
     font-size:13px;letter-spacing:.06em;
@@ -277,14 +297,23 @@
 
 <nav>
   <div class="nav-inner">
-    <a href="#" class="logo">心源科技<span>Xinyuan Neurotech</span></a>
+    <a href="#" class="logo">
+      <span data-i18n="logo.name">心源科技</span>
+      <span class="logo-sub" data-i18n="logo.sub">Xinyuan Neurotech</span>
+    </a>
+
     <ul class="nav-links">
-  <li><a href="#about">关于</a></li>
-  <li><a href="#products">产品矩阵</a></li>
-  <li><a href="#scenes">应用场景</a></li>
-  <li><a href="#credentials">资质认证</a></li>
-  <li><a href="#contact">联系</a></li>
-</ul>
+      <li><a href="#about" data-i18n="nav.about">关于</a></li>
+      <li><a href="#products" data-i18n="nav.products">产品矩阵</a></li>
+      <li><a href="#scenes" data-i18n="nav.scenes">应用场景</a></li>
+      <li><a href="#credentials" data-i18n="nav.credentials">资质认证</a></li>
+      <li><a href="#contact" data-i18n="nav.contact">联系</a></li>
+    </ul>
+
+    <button class="lang-toggle" id="langToggle" type="button" aria-label="Switch language">
+      <span class="lang-zh">EN</span>
+      <span class="lang-en">中文</span>
+    </button>
   </div>
 </nav>
 
@@ -549,6 +578,6 @@
   <span class="f-brand">心源科技 Xinyuan Neurotech</span>
   <span>© 2026 心源科技（深圳）有限公司</span>
 </footer>
-
+<script src="i18n.js"></script>
 </body>
 </html>
