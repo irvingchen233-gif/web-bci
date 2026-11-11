@@ -196,6 +196,32 @@
   .scene h3{font-family:var(--serif);font-size:24px;font-weight:400;line-height:1.35}
   .scene p{font-size:15px;color:var(--ink-soft);line-height:1.9}
 
+  /* ---------- 产品层级条带 ---------- */
+.layers{
+  display:grid;
+  grid-template-columns:repeat(4,1fr);
+  border-top:1px solid var(--rule);
+  border-left:1px solid var(--rule);
+  margin-bottom:56px;
+}
+.layer{
+  padding:24px 22px;
+  border-right:1px solid var(--rule);
+  border-bottom:1px solid var(--rule);
+}
+.layer .n{
+  font-family:var(--serif);font-size:12px;color:var(--accent);
+  letter-spacing:.1em;margin-bottom:10px;
+}
+.layer h4{
+  font-family:var(--serif);font-size:17px;font-weight:400;
+  margin-bottom:8px;line-height:1.4;
+}
+.layer p{font-size:12px;color:var(--ink-soft);line-height:1.7}
+@media (max-width:900px){
+  .layers{grid-template-columns:1fr 1fr}
+}
+  
   /* ---------- 联系 ---------- */
   .contact{
     border-bottom:none;
@@ -253,12 +279,13 @@
   <div class="nav-inner">
     <a href="#" class="logo">心源科技<span>Xinyuan Neurotech</span></a>
     <ul class="nav-links">
-      <li><a href="#about">关于</a></li>
-      <li><a href="#system">技术闭环</a></li>
-      <li><a href="#products">产品矩阵</a></li>
-      <li><a href="#scenes">应用场景</a></li>
-      <li><a href="#contact">联系</a></li>
-    </ul>
+  <li><a href="#about">关于</a></li>
+  <li><a href="#products">产品矩阵</a></li>
+  <li><a href="#scenes">应用场景</a></li>
+  <li><a href="#revenue">收入结构</a></li>
+  <li><a href="#credentials">资质认证</a></li>
+  <li><a href="#contact">联系</a></li>
+</ul>
   </div>
 </nav>
 
@@ -361,6 +388,28 @@
       <h2 class="sec-title">产品<em>矩阵</em></h2>
       <span class="sec-rule"></span>
     </div>
+   <div class="layers">
+  <div class="layer">
+    <div class="n">Ⅰ</div>
+    <h4>检测硬件</h4>
+    <p>FlowSense · Mindsensor · Amovale</p>
+  </div>
+  <div class="layer">
+    <div class="n">Ⅱ</div>
+    <h4>干预设备</h4>
+    <p>般意精力舱</p>
+  </div>
+  <div class="layer">
+    <div class="n">Ⅲ</div>
+    <h4>服务内容</h4>
+    <p>NeuroRestore 睡眠健康管理</p>
+  </div>
+  <div class="layer">
+    <div class="n">Ⅳ</div>
+    <h4>数字平台</h4>
+    <p>Mindmate AI 心理机器人</p>
+  </div>
+</div> 
     <div class="products">
       <div class="product">
         <div class="tick"></div>
@@ -428,6 +477,39 @@
   </div>
 </section>
 
+  <section id="credentials">
+  <div class="wrap">
+    <div class="sec-head">
+      <span class="sec-num">06</span>
+      <h2 class="sec-title">知识产权与<em>全球准入</em></h2>
+      <span class="sec-rule"></span>
+    </div>
+
+    <div class="loop">
+      <div class="loop-item">
+        <div class="idx">01</div>
+        <h3>11 项国家专利</h3>
+        <p>覆盖脑电信号采集、多模态特征融合算法、脑-声闭环干预等核心技术环节。</p>
+      </div>
+      <div class="loop-item">
+        <div class="idx">02</div>
+        <h3>CE · FCC 认证</h3>
+        <p>核心产品已通过欧盟 CE 与美国 FCC 认证，具备全球市场准入资格。</p>
+      </div>
+      <div class="loop-item">
+        <div class="idx">03</div>
+        <h3>II 类医疗器械</h3>
+        <p>般意精力舱已取得国内 II 类医疗器械注册证，兼具出海认证与国内资质。</p>
+      </div>
+      <div class="loop-item">
+        <div class="idx">04</div>
+        <h3>联合研发</h3>
+        <p>与国内外顶尖高校合作，推动技术持续迭代与场景化落地。</p>
+      </div>
+    </div>
+  </div>
+</section>
+  
 <section id="contact" class="contact">
   <div class="wrap">
     <p class="eyebrow">Get in Touch</p>
