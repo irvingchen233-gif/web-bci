@@ -291,7 +291,7 @@ const I18N = {
 
     "contact.title": "If you're thinking about<br><em>what comes next in brain health</em>",
     "contact.lead": "We welcome conversations on partnership, clinical validation, and real-world deployment.",
-    "contact.v.address": "Nanshan District, Shenzhen<br>26F, Bldg 12A1, Shenzhen Bay Science & Technology Park<br>SJTU Shenzhen Institute
+    "contact.v.address": "Nanshan District, Shenzhen<br>26F, Bldg 12A1, Shenzhen Bay Science & Technology Park<br>SJTU Shenzhen Institute.",
     "contact.v.hours": "Mon – Fri<br>09:30 – 18:30",
     "contact.note": "For media and investment enquiries, please state your intent — we reply within two working days.",
 
