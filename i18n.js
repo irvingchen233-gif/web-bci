@@ -159,7 +159,7 @@ const I18N = {
     "nav.credentials": "Credentials",
     "nav.contact": "Contact",
 
-    "hero.title": "Making Brain health,<br><em>measurable and manageable.",
+    "hero.title": "Brain health,<br><em>measurable and manageable.</em>"
     "hero.lead": "Xinyuan Neurotech works at the intersection of life science and artificial intelligence. Starting from non-invasive brain–computer interfaces, we pair real-time EEG monitoring with AI analysis to deliver personalised assessment and intervention for anxiety, insomnia and related conditions — a full-cycle brain health service.",
     "hero.v.base": "Shenzhen · China",
     "hero.v.focus": "BCI × AI Brain Health",
