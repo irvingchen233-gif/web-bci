@@ -141,7 +141,7 @@ const I18N = {
 
     "contact.title": "如果你也在思考<br><em>脑健康的下一步</em>",
     "contact.lead": "欢迎与心源科技团队交流合作、临床验证或场景落地。",
-    "contact.v.address": "深圳市南山区<br>（具体门牌待补）",
+    "contact.v.address": "深圳市南山区<br>深圳湾科技生态园 12A1 栋 26 楼<br>上海交通大学深圳研究院<br>交伙伴 · 众创空间",
     "contact.v.hours": "周一至周五<br>09:30 – 18:30",
     "contact.note": "媒体与投资合作请注明来意，我们会在两个工作日内回复。",
 
@@ -291,7 +291,7 @@ const I18N = {
 
     "contact.title": "If you're thinking about<br><em>what comes next in brain health</em>",
     "contact.lead": "We welcome conversations on partnership, clinical validation, and real-world deployment.",
-    "contact.v.address": "Nanshan District<br>Shenzhen, China",
+    "contact.v.address": "Nanshan District, Shenzhen<br>26F, Bldg 12A1, Shenzhen Bay Science & Technology Park<br>SJTU Shenzhen Institute
     "contact.v.hours": "Mon – Fri<br>09:30 – 18:30",
     "contact.note": "For media and investment enquiries, please state your intent — we reply within two working days.",
 
